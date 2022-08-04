@@ -1,0 +1,174 @@
+:root{
+    --white: #EEEEEE;
+    --effect: #c5fcba;
+    --light-green: #7ce667;
+    --dark-green: #22a108;
+    --base: #154b0b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #7ce667, #22a108);
+    overflow-x: hidden;
+}
+
+.circle-one{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(to right, #c5fcba, #7ce667, #22a108);
+    border-radius: 50%;
+    position: absolute;
+    top: -200px;
+    left: -150px;
+    z-index: -999;
+    filter: drop-shadow(1px 5px 10px #154b0b);
+}
+
+.circle-two{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(to left, #7ce667, #22a108);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: -230px;
+    z-index: -999;
+    filter: drop-shadow(1px 5px 10px #154b0b);
+}
+
+.circle-three{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right,  #b9fdab, #48e728, #21b107);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    z-index: -999;
+    filter: drop-shadow(0px 10px 10px #154b0b);
+}
+
+.circle-four{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(to left,  #b9fdab, #48e728, #21b107);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -300px;
+    right: -50px;
+    z-index: -999;
+    filter: drop-shadow(0px 10px 10px #154b0b);
+}
+
+.container{
+    padding: 20px;
+}
+
+header .container-header{
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header .container-header h1{
+    text-align: center;
+    color: var(--base);
+    font-size: 50px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 20px;
+
+    margin: 20px;
+    padding: 10px;
+    width: 15%;
+    height: 800px;
+    
+}
+
+nav ul li h3{
+    color: var(--base);
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.cv{
+    margin-left: 20px;
+}
+
+.lamaran{
+    margin-left: 20px;
+}
+
+.cv-actice, .lamaran-actice{
+    color: var(--dark-green);
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 20px;
+
+    padding: 10px;
+    margin: 20px;
+    width: 85%;
+}
+
+td{
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+th{
+    border-right: 1px solid var(--base);
+    color: var(--base);
+    letter-spacing: 1px;
+    padding-right: 10px;
+}
+
+.about, .profile, .contact, .education, .experience{
+    background-color: rgba(217, 235, 137, 0.158);
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.about p{
+    font-size: 25px;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.dhen{
+    color: var(--base);
+}
+
+h1{
+    color: var(--base);
+}
+
